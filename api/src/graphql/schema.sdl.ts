@@ -17,6 +17,7 @@ export const schema = gql`
     Thinking
     ThumbsUp
     ThumbsDown
+    Fire
   }
 
   type User {
