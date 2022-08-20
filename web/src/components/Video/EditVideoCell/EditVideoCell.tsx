@@ -28,6 +28,7 @@ const UPDATE_VIDEO_MUTATION = gql`
       description
       createdAt
       updatedAt
+      imageUrl
     }
   }
 `
