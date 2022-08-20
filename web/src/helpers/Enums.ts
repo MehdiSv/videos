@@ -16,6 +16,7 @@ enum ReactionType {
   Thinking = 'Thinking',
   ThumbsUp = 'ThumbsUp',
   ThumbsDown = 'ThumbsDown',
+  Fire = 'Fire',
 }
 
 export { ReactionType }

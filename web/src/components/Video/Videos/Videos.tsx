@@ -10,6 +10,7 @@ const VideosList = ({ videos }) => {
           <Link to={routes.video({ id: video.id })}>
             <VideoThumbnail video={video} />
             <div>{video.title}</div>
+            <div>{video.description}</div>
           </Link>
         </div>
       ))}
